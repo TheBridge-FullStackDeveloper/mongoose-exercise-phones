@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const PhoneModel = require('../../models/Phone');
+const PhoneModel = require('../models/Phone');
 
 router.get("/", async (req, res) => {});
 
