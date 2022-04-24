@@ -1,0 +1,38 @@
+[
+    {
+        "name": "iPhone 13",
+        "manufacturer": "Apple",
+        "color": "black",
+        "price": 769
+    },
+    {
+        "name": "Galaxy S10",
+        "manufacturer": "Samsung",
+        "color": "grey",
+        "price": 209
+    },
+    {
+        "name": "Nokia 3360",
+        "manufacturer": "Nokia",
+        "color": "blue",
+        "price": 399
+    },
+    {
+        "name": "P10 Lite",
+        "manufacturer": "Huawei",
+        "color": "white",
+        "price": 249
+    },
+    {
+        "name": "Nokia 7.1",
+        "manufacturer": "Nokia",
+        "color": "black",
+        "price": 275
+    },
+    {
+        "name": "Pixel 4a",
+        "manufacturer": "Google",
+        "color": "black",
+        "price": 359
+    }
+  ]
