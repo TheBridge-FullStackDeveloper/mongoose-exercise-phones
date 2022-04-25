@@ -1,12 +1,7 @@
 // Importar mongoose
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-const mongooseConfigs = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true
-}
+const mongooseConfigs = { useNewUrlParser: true, useUnifiedTopology: true };
 
 mongoose
   .connect("METER LA STRING A LA BBDD", mongooseConfigs)
