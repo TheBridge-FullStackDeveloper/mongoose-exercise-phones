@@ -11,7 +11,7 @@ router.get("/all", async (req, res) => {
     if (String(sort) === 'desc') {
         phones.sort(
             function({price: a}, {price:b}) {
-            return b-a 
+            return b-a
         });
     };
 

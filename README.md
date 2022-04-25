@@ -8,4 +8,4 @@
     - `POST` Crea una query con mongoose para añadir un móvil a la BBDD ✅
     - `PUT` Crea una query con mongoose para modificar un móvil en la BBDD ✅
     - `DELETE`Crea una query con mongoose para remover un móvil de la BBDD
-4. En la primera ruta (`GET` para recoger todos lo móviles), crea la lógica para poder manejar estas peticionies `/phones?sort=asc` o `/phones?sort=desc` para poder clasificar los móviles por precio
+4. En la primera ruta (`GET` para recoger todos lo móviles), crea la lógica para poder manejar estas peticionies `/phones?sort=asc` o `/phones?sort=desc` para poder clasificar los móviles por precio ✅
