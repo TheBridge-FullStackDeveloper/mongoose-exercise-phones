@@ -3,7 +3,6 @@ const PhoneModel = require('../models/Phone');
 
 
 router.get("/all", async (req, res) => {
-    console.log('entra en all')
     const sort = req.query.sort;
 
     let phones = await PhoneModel.find({});
@@ -28,7 +27,6 @@ router.get("/all", async (req, res) => {
 router.post('/create', async (req, res) => {
     const newPhone = req.body;
     const updatedDB = await PhoneModel.create(newPhone, {});
-    console.log('updatedDB: ', newPhone , 'updatedDB: ', updatedDB)
 
     res.status(200).json(updatedDB);
 });
@@ -45,10 +43,8 @@ router.put('/update/:id', async (req, res) => {
 });
 
 router.delete('/delete/:id', async (req, res) => {
-    console.log('entra en delete')
     const { id } = req.params;
-    const updatedDB = await PhoneModel.findOneAndDelete( { id } );
-    console.log('updatedDB: ', updatedDB);
+    const updatedDB = await PhoneModel.findOneAndDelete( { _id: id } );
     res.status(200).json(updatedDB);
 });
 
